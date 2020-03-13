@@ -12,8 +12,9 @@ I used the data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-
 <img src="images/ncaa_viz.PNG?raw=true"/>
 <br>
 <br>
-Scrape some stats from TeamRankings.com and KenPom.com.  Added these to to the season games data provided by Kaggle. Credit goes to some past years notebooks using Beautiful Soup. <br>
-[Getting External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
+Scrape some stats from TeamRankings.com and KenPom.com.  Added these to to the season games data provided by Kaggle. 
+<br>
+[Get External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 
 
 ---
