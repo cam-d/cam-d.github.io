@@ -2,7 +2,7 @@
 
 ---
 
-### March Madness 2020
+### Kaggle ML March Madness 2020
 
 [Getting External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 
