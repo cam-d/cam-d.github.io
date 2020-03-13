@@ -8,6 +8,9 @@ Sadly the tournament isn't happening, so I'll guess I'll have to wait until next
 Some summary data for past years tournaments using the Kaggle Tourney data. <br>
 [NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
 <br>
+<img src="images/ncaa_viz.png?raw=true"/>
+<br>
+<br>
 Scrape some stats from TeamRankings.com and KenPom.com.  Added these to to the season games data provided by Kaggle. Credit goes to some past years notebooks using Beautiful Soup. <br>
 [Getting External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 
