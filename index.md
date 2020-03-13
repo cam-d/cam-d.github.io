@@ -4,6 +4,9 @@
 
 ### Kaggle ML March Madness 2020
 
+Some summary data for past years tournaments using the Kaggle Tourney data.
+[NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
+
 [Getting External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 
 
