@@ -4,8 +4,9 @@
 
 ### Kaggle ML March Madness 2020 <br>
 Sadly the tournament isn't happening, so I'll guess I'll have to wait until next year to see how I did but really enjoyed working on it.
+<br> <br>
+I used the data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-march-madness-2020-division-1-mens-tournament/data) to make this summary dashboard for past years tournaments.
 <br>
-Some summary data for past years tournaments using the Kaggle Tourney data. <br>
 [NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
 <br>
 <img src="images/ncaa_viz.PNG?raw=true"/>
