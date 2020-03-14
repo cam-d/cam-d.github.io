@@ -27,8 +27,14 @@ seasons = [2015,2016,2017,2018,2019]
 for s in seasons:
     train_test_window_fit(LR, train1, s, 2007)
 ```
-<br>
-<img src="images/LR_res.PNG?raw=true"/>
+```
+2015 Log_loss 0.435 Acc: 0.806
+2016 Log_loss 0.4073 Acc: 0.791
+2017 Log_loss 0.3551 Acc: 0.8358
+2018 Log_loss 0.3859 Acc: 0.791
+2019 Log_loss 0.2829 Acc: 0.8955
+    
+```
 ---
 
 <!--### Category Name 2-->
