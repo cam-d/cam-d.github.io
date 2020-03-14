@@ -16,25 +16,18 @@ Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added the
 <br>
 [Get External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 <br><br>
-Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
+Pthon Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
 [NCAA Notebook](https://github.com/cam-d/cam-d.github.io/blob/master/NCAA_Bball_copy.ipynb)
 <br>
-Evaluated Logistic Regression and MLP on LogLoss and Accuracy for each season.  
+1.	Reformat data to list lower TeamID first, same format needed for Kaggle submission.
+2.	Aggregating regular season stats to use as features.
+3.	Add regular season, KenPom and TeamRanking stats to TourneyResults data to create data set for training and testing.
+4.	Create features that compare each stat for team_x and team_y (difference and ratio).
+5.	Define function for training and testing.  For example, train on the 2007-2014 tournaments, test on 2015 tournament.
+6.	Predict game results using Logistic Regession and Neural Networks (MLP).
+
 <br><br>
-```python
-LR = LogisticRegression(C=1,max_iter = 1E6,penalty='l2')
-seasons = [2015,2016,2017,2018,2019]
-for s in seasons:
-    train_test_window_fit(LR, train1, s, 2007)
-```
-```python
-2015 Log_loss 0.435 Acc: 0.806
-2016 Log_loss 0.4073 Acc: 0.791
-2017 Log_loss 0.3551 Acc: 0.8358
-2018 Log_loss 0.3859 Acc: 0.791
-2019 Log_loss 0.2829 Acc: 0.8955
-    
-```
+
 ---
 
 <!--### Category Name 2-->
