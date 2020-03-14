@@ -27,6 +27,8 @@ seasons = [2015,2016,2017,2018,2019]
 for s in seasons:
     train_test_window_fit(LR, train1, s, 2007)
 ```
+<br>
+<img src="images/LR_res.PNG?raw=true"/>
 ---
 
 <!--### Category Name 2-->
