@@ -21,13 +21,13 @@ Notebook for reformating and combining stats from Kaggle and external sources, t
 <br>
 Evaluated Logistic Regression and MLP on LogLoss and Accuracy for each season.  
 <br><br>
-```
+```python
 LR = LogisticRegression(C=1,max_iter = 1E6,penalty='l2')
 seasons = [2015,2016,2017,2018,2019]
 for s in seasons:
     train_test_window_fit(LR, train1, s, 2007)
 ```
-```
+```python
 2015 Log_loss 0.435 Acc: 0.806
 2016 Log_loss 0.4073 Acc: 0.791
 2017 Log_loss 0.3551 Acc: 0.8358
