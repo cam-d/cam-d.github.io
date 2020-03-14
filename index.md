@@ -21,7 +21,7 @@ Notebook for reformating and combining stats from Kaggle and external sources, t
 <br>
 Evaluated Logistic Regression and MLP on LogLoss and Accuracy for each season.  
 <br><br>
-```javascript
+```
 LR = LogisticRegression(C=1,max_iter = 1E6,penalty='l2')
 seasons = [2015,2016,2017,2018,2019]
 for s in seasons:
