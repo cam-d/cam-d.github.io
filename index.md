@@ -17,22 +17,15 @@ Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added the
 [Get External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 <br><br>
 Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
-[NCAA Notebook](https://github.com/cam-d/cam-d.github/blob/master/NCAA_BBall.ipynb)
+[NCAA Notebook](https://github.com/cam-d/cam-d.github.io/blob/master/NCAA_Bball_copy.ipynb)
 <br>
 Evaluated Logistic Regression and MLP on LogLoss and Accuracy for each season.  
-
----
-
 
 ---
 
 <!--### Category Name 2-->
 
 <!-- - [Project 1 Title](http://example.com/)-->
-
-
----
-
 
 
 
