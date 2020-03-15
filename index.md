@@ -16,7 +16,7 @@ Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added the
 <br>
 [Get External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
 <br><br>
-Pthon Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
+Python Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
 [NCAA Notebook](https://github.com/cam-d/cam-d.github.io/blob/master/NCAA_Bball_copy.ipynb)
 <br>
 1.	Reformat data to list lower TeamID first, same format needed for Kaggle submission.
