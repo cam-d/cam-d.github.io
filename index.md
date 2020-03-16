@@ -25,8 +25,11 @@ Python Notebook for reformating and combining stats from Kaggle and external sou
 4.	Create features that compare each stat for team_x and team_y (difference and ratio).
 5.	Define function for training and testing.  For example, train on the 2007-2014 tournaments, test on 2015 tournament.
 6.	Predict game results using Logistic Regession and Neural Networks (MLP).
-
 <br><br>
+### Fairfax Country Property Values
+<br><br>
+Looking through data.gov, I saw quite a bit of data provided by Fairfax County tax administration office.  I was originally looking for home prices similar to what might be on RedFin or Zillow, but since they had made so much data available it seemed a shame not to use it.  <br>
+[Median Assessed Property Values viz (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/FfxHouses/Dashboard1)
 
 ---
 
