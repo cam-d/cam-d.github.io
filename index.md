@@ -14,10 +14,10 @@ I used the data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-
 <br>
 Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added these to to the season games data provided by Kaggle. 
 <br>
-[Get External NCAA Basketball Stats](https://github.com/cam-d/cam-d.github.io/blob/master/teamRankings.ipynb)
+[Get External NCAA Basketball Stats](https://github.com/cam-d/Work_Examples/blob/master/teamRankings.ipynb)
 <br><br>
 Python Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
-[NCAA Notebook](https://github.com/cam-d/cam-d.github.io/blob/master/NCAA_Bball_copy.ipynb)
+[NCAA Notebook](https://github.com/cam-d/Work_Examples/blob/master/NCAA_Bball.ipynb)
 <br>
 1.	Reformat data to list lower TeamID first, same format needed for Kaggle submission.
 2.	Aggregating regular season stats to use as features.
