@@ -10,7 +10,7 @@ I used the data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-
 [NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
 <br><br>
 <!-- <img src="images/ncaa_viz.PNG?raw=true"/> -->
-Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added these to to the season games data provided by Kaggle. 
+Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added these to the season games data provided by Kaggle. 
 <br>
 [Get External NCAA Basketball Stats](https://github.com/cam-d/Work_Examples/blob/master/teamRankings.ipynb)
 <br><br>
@@ -18,17 +18,17 @@ Python Notebook for reformating and combining stats from Kaggle and external sou
 [NCAA Notebook](https://github.com/cam-d/Work_Examples/blob/master/NCAA_Bball.ipynb)
 <br>
 1.	Reformat data to list lower TeamID first, same format needed for Kaggle submission.
-2.	Aggregating regular season stats to use as features.
+2.	Aggregate regular season stats to use as features.
 3.	Add regular season, KenPom and TeamRanking stats to TourneyResults data to create data set for training and testing.
 4.	Create features that compare each stat for team_x and team_y (difference and ratio).
 5.	Define function for training and testing.  For example, train on the 2007-2014 tournaments, test on 2015 tournament.
-6.	Predict game results using Logistic Regession and Neural Networks (MLP).
+6.	Predict game results using Logistic Regession and Neural Networks (MLP).  Predictions are probability team_x (lower teamID) wins.
 
 ---
 
-### Fairfax Country Property Values
+### Fairfax County Property Values
 <br>
-Looking through data.gov, I saw quite a bit of data provided by Fairfax County tax administration office.  I was originally looking for home prices similar to what might be on RedFin or Zillow, but since they had made so much data available it seemed a shame not to use it.  <br>
+Looking through [data.gov](https://catalog.data.gov/dataset/tax-administrations-real-estate-assessed-values-1c608), I saw quite a bit of data provided by Fairfax County tax administration office.  The data consisted of assessed values for the land and buildings for each parcel, including residential and commercial, so I filtered just for those residential parcels with only 1 building on it to try to get an equivalent to single-family homes.  I was originally looking for home prices similar to what might be on RedFin or Zillow, but since they had made so much data available it seemed a shame not to use it.  <br>
 [Median Assessed Property Values viz (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/FfxHouses/Dashboard1)
 
 ---
