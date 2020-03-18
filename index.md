@@ -9,9 +9,7 @@ I used the data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-
 <br>
 [NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
 <br>
-<img src="images/ncaa_viz.PNG?raw=true"/>
-<br>
-<br>
+<!-- <img src="images/ncaa_viz.PNG?raw=true"/> -->
 Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added these to to the season games data provided by Kaggle. 
 <br>
 [Get External NCAA Basketball Stats](https://github.com/cam-d/Work_Examples/blob/master/teamRankings.ipynb)
