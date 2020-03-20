@@ -31,7 +31,7 @@ Python Notebook for reformating and combining stats from Kaggle and external sou
 Looking through [data.gov](https://catalog.data.gov/dataset/tax-administrations-real-estate-assessed-values-1c608), I saw quite a bit of data provided by Fairfax County tax administration office.  The data consisted of assessed values for the land and buildings for each parcel, including residential and commercial, so I filtered just for those residential parcels with only 1 building on it to try to get an equivalent to single-family homes.  I was originally looking for home prices similar to what might be on RedFin or Zillow, but since they had made so much data available it seemed a shame not to use it.  <br>
 [Median Assessed Property Values viz (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/FfxHouses/Dashboard1)
 <br>
-Exploratory analysis using Streamlit and plotly.  Ran it locally but have a gif [here](https://github.com/cam-d/Work_Examples/blob/master/StreamLit.gif). 
+Exploratory analysis using Streamlit and plotly.  [Streamlit gif](https://github.com/cam-d/Work_Examples/blob/master/StreamLit.gif). 
 ---
 
 <!--### Category Name 2-->
