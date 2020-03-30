@@ -4,7 +4,7 @@
 
 ### Kaggle ML March Madness 2020 <br>
 Sadly the tournament didn't happned this year, so I'll have to wait until next year to officially compete on Kaggle.  On the training data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-march-madness-2020-division-1-mens-tournament/data), by including external data and summary season stats I was able to achieve log-loss in the .3-.5 range for each of the 2014-2019 seasons, and better accuracy than just always picking the higher ranked team.  Some of the work that went into the project is below.
-<br><br> 
+<br>
 * [NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
 <br>
 * Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com -[Get External NCAA Basketball Stats](https://github.com/cam-d/Work_Examples/blob/master/teamRankings.ipynb)
