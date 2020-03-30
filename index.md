@@ -3,26 +3,18 @@
 ---
 
 ### Kaggle ML March Madness 2020 <br>
-Sadly the tournament isn't happening, so I'll guess I'll have to wait until next year to see how I did.
-<br> <br>
-I used the data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-march-madness-2020-division-1-mens-tournament/data) to make this summary dashboard for past years tournaments.
+Sadly the tournament didn't happned this year, so I'll have to wait until next year to officially compete on Kaggle.  On the training data provided by [Kaggle](https://www.kaggle.com/c/google-cloud-ncaa-march-madness-2020-division-1-mens-tournament/data), by including external data and summary season stats I was able to achieve log-loss in the .3-.5 range for each of the 2014-2019 seasons, and better accuracy than just always picking the higher ranked team.  Some of the work that went into the project is below.
+<br><br> 
+* [NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
 <br>
-[NCAA Tourney Dashboard (Tableau Public)](https://public.tableau.com/profile/cameron.de.la.pena#!/vizhome/NCAABasketball_15841125763020/Dashboard1)
-<br><br>
-<!-- <img src="images/ncaa_viz.PNG?raw=true"/> -->
-Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com.  Added these to the season games data provided by Kaggle. 
+* Used BeautifulSoup to get stats from TeamRankings.com and KenPom.com -[Get External NCAA Basketball Stats](https://github.com/cam-d/Work_Examples/blob/master/teamRankings.ipynb)
 <br>
-[Get External NCAA Basketball Stats](https://github.com/cam-d/Work_Examples/blob/master/teamRankings.ipynb)
-<br><br>
-Python Notebook for reformating and combining stats from Kaggle and external sources, then predicting for 2015-2019 seasons. <br>
-[NCAA Notebook](https://github.com/cam-d/Work_Examples/blob/master/NCAA_Bball.ipynb)
-<br>
-1.	Reformat data to list lower TeamID first, same format needed for Kaggle submission.
-2.	Aggregate regular season stats to use as features.
-3.	Add regular season, KenPom and TeamRanking stats to TourneyResults data to create data set for training and testing.
-4.	Create features that compare each stat for team_x and team_y (difference and ratio).
-5.	Define function for training and testing.  For example, train on the 2007-2014 tournaments, test on 2015 tournament.
-6.	Predict game results using Logistic Regession and Neural Networks (MLP).  Predictions are probability team_x (lower teamID) wins.
+* Python Code - [NCAA Notebook](https://github.com/cam-d/Work_Examples/blob/master/NCAA_Bball.ipynb)
+  *	Reformat data to list lower TeamID first, same format needed for Kaggle submission.
+  *	Aggregate regular season stats to use as features.
+  *	Add regular season, KenPom and TeamRanking stats to TourneyResults data to create data set for training and testing.
+  *	Create features that compare each stat for team_x and team_y (difference and ratio).
+  *	Define function for training and testing.  For example, train on the 2007-2014 tournaments, test on 2015 tournament.
 
 ---
 
