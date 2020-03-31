@@ -25,7 +25,7 @@ Looking through [data.gov](https://catalog.data.gov/dataset/tax-administrations-
 * Exploratory analysis using Streamlit and plotly.  [Streamlit gif](https://github.com/cam-d/Work_Examples/blob/master/StreamLit.gif)
 * The data is available via API.
   * Calling data.gov API [Python](https://github.com/cam-d/Work_Examples/blob/master/Data.gov%20API)
-* [R Script](https://github.com/cam-d/Work_Examples/blob/master/FFx%20Houses.pdf) to access data using the API, aggregate, cleanse, visualize, and ultimmately explore the relationship between house size and number of bedrooms and bathrooms with their sale price and appraised value for each city.  
+* Access data using the API, aggregate, cleanse, visualize, and ultimately explore the relationship between house size and number of bedrooms and bathrooms with their sale price and appraised value for each city. [R Script](https://github.com/cam-d/Work_Examples/blob/master/FFx%20Houses.pdf)
 ---
 
 <!--### Category Name 2-->
